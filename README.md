@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Deep Convolution Generative Adversarial Networks
 
 This example implements the paper [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434)
@@ -43,3 +44,7 @@ optional arguments:
   --netG NETG           path to netG (to continue training)
   --netD NETD           path to netD (to continue training)
 ```
+=======
+# dcgan-pytorch
+Instance for the DCGAN with pytorch
+>>>>>>> origin/master
