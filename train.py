@@ -154,7 +154,7 @@ for epoch in range(1, config.epochs+1):
               % (epoch, config.epochs, i, len(dataloader),
                  lossD.item(), lossG.item(), D_x, D_G_z1, D_G_z2))
 
-    vutils.save_image(config, '%s/real_samples.png' % config.outf,
+    vutils.save_image(real, '%s/real_samples.png' % config.outf,
                       nrow=config.nrow, normalize=True)
     fake = netG(fixed_noise)
     vutils.save_image(fake.detach(), '%s/fake_samples_epoch_%03d.png' % (config.outf, epoch),
